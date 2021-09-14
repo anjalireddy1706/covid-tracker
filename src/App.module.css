@@ -21,7 +21,6 @@ body {
   height: 690px;
   margin: 1%;
   margin-left: 6%;
-  overflow: hidden;
 }
 
 @media (max-width: 770px) {
