@@ -1,0 +1,41 @@
+body {
+  height: 100%;
+  width: 100%;
+}
+
+.container {
+  align-items: center;
+  justify-content: center;
+}
+
+.covidImage {
+  width: 370px;
+  margin-top: 3%;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.covidInfo {
+  width: 88%;
+  height: 690px;
+  margin: 1%;
+  margin-left: 6%;
+  overflow: hidden;
+}
+
+@media (max-width: 770px) {
+  .container {
+    margin: 0 10%;
+  }
+  .card {
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .covidInfo {
+    display: none;
+  }
+  .covidImage {
+    margin-top: 5%;
+  }
+}
