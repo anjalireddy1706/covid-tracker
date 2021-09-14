@@ -9,7 +9,7 @@ const Cards=({data:{ cases, recovered, deaths, lastUpdate}})=>{
     if(!cases){
         return 'Loading...';
     }
-function getCurrentDate(separator='  '){
+function getCurrentDate(separator='-'){
 
 let myCurrentDate = new Date()
 let date = myCurrentDate.getDate();
